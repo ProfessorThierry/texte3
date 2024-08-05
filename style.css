@@ -1,0 +1,77 @@
+/* Reset básico de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e300; /* Fundo amarelo */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s, padding 0.3s;
+}
+
+header.shrink {
+    background-color: #ffcc00;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
